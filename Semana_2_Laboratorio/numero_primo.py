@@ -4,8 +4,6 @@
 # 	print("El numero ingresado es primo")
 # else:
 #    	print("El número ingresado no es primo")
-	
-
 numero = int(input("Ingrese un número: "))
 primo=True
 for n in range(2,numero):
