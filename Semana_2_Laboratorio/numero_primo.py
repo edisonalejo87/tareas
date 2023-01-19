@@ -4,12 +4,12 @@
 # 	print("El numero ingresado es primo")
 # else:
 #    	print("El número ingresado no es primo")
-numero = int(input("Ingrese un número: "))
-primo=True
+numero = int(input("Ingrese un número para verificar si es primo o no: "))
+numero_primo=True
 for n in range(2,numero):
 	if numero% n ==0:
-		print("El número ingresado no es primo")
-		primo=False
+		print("El número ingresado: ",numero, " no es primo")
+		numero_primo=False
 		break
-if primo:
-	print("El numero ingresado es primo")
+if numero_primo:
+	print("El número ingresado: ",numero, " es primo")
