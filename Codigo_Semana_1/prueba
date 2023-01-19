@@ -1,0 +1,3 @@
+numero=3
+resultado =  numero%numero != 0
+print("Es resultado",resultado)
