@@ -1,15 +1,20 @@
-#useropcion = input("Ingrese puedra papel o tijera ")
-computer = "piedra"
-useropcion= "tijera"
-# if useropcion == computer:
-#     print("empate")
-# elif useropcion == "tijera":
-#     if computer == "Piedra":
-#         print("computer gana")
-#     else:
-#         print("Usuario gana")
-computer = "tijera"
-useropcion= "papel"
+# #useropcion = input("Ingrese puedra papel o tijera ")
+# computer = "piedra"
+# useropcion= "tijera"
+# # if useropcion == computer:
+# #     print("empate")
+# # elif useropcion == "tijera":
+# #     if computer == "Piedra":
+# #         print("computer gana")
+# #     else:
+# #         print("Usuario gana")
+
+import random
+computer1 =["piedra","papel","tijera"]
+computer = random.choice(computer1).lower()
+useropcion= input("Ingrese piedra papel o tijera: ").lower()
+#computer = "tijera".lower()
+print(computer)
 if computer == "piedra" and computer =="papel":
     print("Gano,papel a piedra ")
 elif computer == "papel" and useropcion == "tijera":
