@@ -19,8 +19,8 @@ elif opcion == "celular":
     cantidad_celular= int(input("Cuantos celulares desea: "))
     while cp <= cantidad_celular:
         mensaje = "Ingresa el valor del celular número {}: ".format(cp)
-        precio_celular = input(mensaje)
-        precio = float(precio_celular)
+        pre_cel = input(mensaje)
+        precio = float(pre_cel)
         precio_total = precio_total + precio
         cp = cp + 1
     precio_total = precio_total - (precio_total * descuento)
